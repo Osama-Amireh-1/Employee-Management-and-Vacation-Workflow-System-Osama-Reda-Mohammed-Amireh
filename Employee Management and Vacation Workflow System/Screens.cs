@@ -9,8 +9,7 @@ using Data_Layer.EmployeeRepositoryFiles;
 using Data_Layer.Entities;
 using Data_Layer.PositionRepositoryFile;
 using Data_Layer.VacationRequestRepositoryFiles;
-using DTOs;
-using Shared_Layer;
+using Shared_Layer.Dtos;
 using Shared_Layer.Enums;
 using System;
 using System.Collections.Generic;
@@ -358,7 +357,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
         #endregion
 
         #region 'Employee Event'
-        static int GetValidRequestNumber(List<PendingVacationRequestsDto> pendingVacations,int ReqID)
+        static int GetValidRequestNumber(List<PendingVacationRequestsDetailsDto> pendingVacations,int ReqID)
         {
             while(!pendingVacations.Any(vacation => vacation.Id == ReqID)&& ReqID!=0)
             {
@@ -480,7 +479,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
         }
         static  bool PrintAllEmployeeHavePendingRequest()
         {
-            List<EmployeePendingVacationDto> employeeHavePendingVacations = EmployeeService.GetAllEmployeesHaveOneOrMorePendingVacationRequests(ActiveEmployee.EmployeeNumber);
+            List<EmployeeHavePendingVacationDto> employeeHavePendingVacations = EmployeeService.GetAllEmployeesHaveOneOrMorePendingVacationRequests(ActiveEmployee.EmployeeNumber);
             if (employeeHavePendingVacations == null || employeeHavePendingVacations.Count == 0)
             {
                 Console.WriteLine("\n No employees currently have pending vacation requests.");
@@ -813,7 +812,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
         }
         static void ShowMyApprovedVacationHistory()
         {
-           List<VacationRequestsHistoryDto> vacationRequestsHistories= VacationRequestService.GetAllApprovedRequestForEmployee(ActiveEmployee.EmployeeNumber);
+           List<ApprovedVacationRequestsHistoryDto> vacationRequestsHistories= VacationRequestService.GetAllApprovedRequestForEmployee(ActiveEmployee.EmployeeNumber);
             if(vacationRequestsHistories == null || !vacationRequestsHistories.Any())
             {
                 Console.WriteLine("\n No approved vacation requests found.");
@@ -831,7 +830,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
 
             Console.WriteLine("----------------------------------------------------------------------------------");
         }
-        static void ResponseTakeActionForEmployeeMenu(enTakeActionOption option, PendingVacationRequestsDto ActiveRequest, string EmployeeNumber)
+        static void ResponseTakeActionForEmployeeMenu(enTakeActionOption option, PendingVacationRequestsDetailsDto ActiveRequest, string EmployeeNumber)
         {
             EmployeeDetailsDto employeeDetails = EmployeeService.GetEmployeeByEmployeeNumber(EmployeeNumber);
             int requestedDays = (ActiveRequest.EndDate.ToDateTime(TimeOnly.MinValue) - ActiveRequest.StartDate.ToDateTime(TimeOnly.MinValue)).Days + 1;
@@ -861,7 +860,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
                     return;
             }
         }
-        static void TakeActionForEmployeeMenu(PendingVacationRequestsDto ActiveRequest, string EmployeeNumber)
+        static void TakeActionForEmployeeMenu(PendingVacationRequestsDetailsDto ActiveRequest, string EmployeeNumber)
         {
             Console.WriteLine("\n1.Approved");
             Console.WriteLine("2.Decline");
@@ -870,7 +869,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
             int choice = (int)ValidateUserInputIsANumber(GetInputValue(Console.ReadLine(), "your choice", "Enter your choice:"), "your choice", true, 1, 3);
             ResponseTakeActionForEmployeeMenu((enTakeActionOption)choice, ActiveRequest, EmployeeNumber);
         }
-        static void ShowAllPendingVacationRequestsForEmployee(string EmployeeNumber, List<PendingVacationRequestsDto> pendingVacations)
+        static void ShowAllPendingVacationRequestsForEmployee(string EmployeeNumber, List<PendingVacationRequestsDetailsDto> pendingVacations)
         {
             Console.Clear();
 
@@ -897,7 +896,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
         }
         static void TakeActionForEmployee(string EmployeeNumber)
         {
-            List<PendingVacationRequestsDto> pendingVacations = VacationRequestService.GetAllPendingVacationRequestsForEmployee(EmployeeNumber);
+            List<PendingVacationRequestsDetailsDto> pendingVacations = VacationRequestService.GetAllPendingVacationRequestsForEmployee(EmployeeNumber);
             ShowAllPendingVacationRequestsForEmployee(EmployeeNumber, pendingVacations);
             if (pendingVacations == null || !pendingVacations.Any())
                 return;
@@ -910,7 +909,7 @@ namespace Employee_Management_and_Vacation_Workflow_System
                 Console.WriteLine("Action canceled.");
                 return;
             }
-            PendingVacationRequestsDto ActiveRequest = pendingVacations.Where(e => e.Id == input).FirstOrDefault();
+            PendingVacationRequestsDetailsDto ActiveRequest = pendingVacations.Where(e => e.Id == input).FirstOrDefault();
             TakeActionForEmployeeMenu(ActiveRequest, EmployeeNumber);
         }
         static string GetVacationDuration(int totalDays)

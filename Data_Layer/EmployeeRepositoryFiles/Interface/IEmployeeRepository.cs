@@ -1,5 +1,5 @@
 ﻿using Data_Layer.Entities;
-using DTOs;
+using Shared_Layer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +20,7 @@ namespace Data_Layer.EmployeeRepositoryFiles.Interface
         bool UpdateEmployeeSalary(string EmployeeNumber, decimal Salary);
         bool UpdateEmployeeVacationDaysBalance(string EmployeeNumber, int newBalance);
 
-        List<EmployeePendingVacationDto> GetAllEmployeesHaveOneOrMorePendingVacationRequests(string ReportedToEmployeeNumber);
+        List<EmployeeHavePendingVacationDto> GetAllEmployeesHaveOneOrMorePendingVacationRequests(string ReportedToEmployeeNumber);
         List<EmployeeBasicInfoDto> GetAllEmployeeReportedToSpecificEmployee(string ReportedToNumber);
         bool AddListOfEmployees(List<Employees> Employees);
 

@@ -1,7 +1,7 @@
 ﻿using Data_Layer.DBContext;
 using Data_Layer.EmployeeRepositoryFiles.Interface;
 using Data_Layer.Entities;
-using DTOs;
+using Shared_Layer.Dtos;
 using Shared_Layer.Enums;
 using System;
 using System.Collections.Generic;
@@ -204,7 +204,7 @@ namespace Data_Layer.EmployeeRepositoryFiles
             }
         }
 
-        public List<EmployeePendingVacationDto> GetAllEmployeesHaveOneOrMorePendingVacationRequests(string ReportedToEmployeeNumber)
+        public List<EmployeeHavePendingVacationDto> GetAllEmployeesHaveOneOrMorePendingVacationRequests(string ReportedToEmployeeNumber)
         {
             try
             {
@@ -214,7 +214,7 @@ namespace Data_Layer.EmployeeRepositoryFiles
                                  where Emp.ReportedToEmployeeNumber == ReportedToEmployeeNumber && req.RequestStateId == (int)enRequestState.Pending
                                  group req by new { Emp.EmployeeNumber, Emp.EmployeeName, Emp.VacationDaysLeft } into grouprd
                                  where grouprd.Count() >= 1
-                                 select new EmployeePendingVacationDto
+                                 select new EmployeeHavePendingVacationDto
                                  {
                                      EmployeeNumber = grouprd.Key.EmployeeNumber,
                                      EmployeeName = grouprd.Key.EmployeeName,
@@ -227,7 +227,7 @@ namespace Data_Layer.EmployeeRepositoryFiles
             }
             catch (Exception ex) {
                 Console.Error.WriteLine($"Error fetching pending vacation requests: {ex.Message}");
-                return new List<EmployeePendingVacationDto>();
+                return new List<EmployeeHavePendingVacationDto>();
 
              }
 

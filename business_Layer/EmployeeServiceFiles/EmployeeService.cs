@@ -1,7 +1,7 @@
 ﻿using Business_Layer.EmployeeServiceFiles.Interface;
 using Data_Layer.EmployeeRepositoryFiles;
 using Data_Layer.Entities;
-using DTOs;
+using Shared_Layer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +27,7 @@ namespace Business_Layer.EmployeeServiceFiles
 
         }
 
-        public List<EmployeePendingVacationDto> GetAllEmployeesHaveOneOrMorePendingVacationRequests(string ReportedToEmployeeNumber)
+        public List<EmployeeHavePendingVacationDto> GetAllEmployeesHaveOneOrMorePendingVacationRequests(string ReportedToEmployeeNumber)
         {
             return EmployeeRepository.GetAllEmployeesHaveOneOrMorePendingVacationRequests(ReportedToEmployeeNumber);
         }

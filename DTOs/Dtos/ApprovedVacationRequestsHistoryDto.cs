@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DTOs
+namespace Shared_Layer.Dtos
 {
-    public class VacationRequestsHistoryDto
+    public class ApprovedVacationRequestsHistoryDto
     {
-       public string VacationTypeName { get; set; }
+        public string VacationTypeName { get; set; }
         public string VacationDescription { get; set; }
         public DateOnly StartDate { get; set; }
         public DateOnly EndDate { get; set; }

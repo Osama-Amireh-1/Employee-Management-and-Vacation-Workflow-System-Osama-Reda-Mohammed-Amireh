@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared_Layer
+namespace Shared_Layer.Dtos
 {
     public class VacationsDateDto
     {

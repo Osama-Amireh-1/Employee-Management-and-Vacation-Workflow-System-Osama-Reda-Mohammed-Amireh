@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DTOs
+namespace Shared_Layer.Dtos
 {
-    public class PendingVacationRequestsDto
+    public class PendingVacationRequestsDetailsDto
     {
         public int Id { get; set; }
         public string VacationDescription { get; set; }

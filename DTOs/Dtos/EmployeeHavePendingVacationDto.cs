@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DTOs
+namespace Shared_Layer.Dtos
 {
-    public class EmployeeBasicInfoDto
+    public class EmployeeHavePendingVacationDto
     {
         public string EmployeeNumber { get; set; }
         public string EmployeeName { get; set; }
-        public string DepartmentName { get; set; }
-        public decimal Salary { get; set; }
+        public int PendingRequestCount { get; set; }
+        public int TotalVacationDaysLeft { get; set; }
+
     }
 }

@@ -1,8 +1,7 @@
 ﻿using Business_Layer.VacationRequestServiceFiles.Interface;
 using Data_Layer.Entities;
 using Data_Layer.VacationRequestRepositoryFiles;
-using DTOs;
-using Shared_Layer;
+using Shared_Layer.Dtos;
 using Shared_Layer.Enums;
 using System;
 using System.Collections.Generic;
@@ -23,12 +22,12 @@ namespace Business_Layer.VacationRequestServiceFiles
           return  VacationRequestRepository.AddNewVcationRequest(new VacationRequests(description, employeeNumber, vacationTypeCode, startDate, endDate));
         }
 
-        public List<VacationRequestsHistoryDto> GetAllApprovedRequestForEmployee(string employeeNumber)
+        public List<ApprovedVacationRequestsHistoryDto> GetAllApprovedRequestForEmployee(string employeeNumber)
         {
             return VacationRequestRepository.GetAllApprovedRequestForEmployee(employeeNumber);
         }
 
-        public List<PendingVacationRequestsDto> GetAllPendingVacationRequestsForEmployee(string employeeNumber)
+        public List<PendingVacationRequestsDetailsDto> GetAllPendingVacationRequestsForEmployee(string employeeNumber)
         {
             return VacationRequestRepository.GetAllPendingVacationRequestsForEmployee( employeeNumber);
         }

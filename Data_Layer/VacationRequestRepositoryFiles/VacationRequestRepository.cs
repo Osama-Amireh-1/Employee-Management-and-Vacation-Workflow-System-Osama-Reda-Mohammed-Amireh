@@ -1,8 +1,7 @@
 ﻿using Data_Layer.DBContext;
 using Data_Layer.Entities;
 using Data_Layer.VacationRequestRepositoryFiles.Interface;
-using DTOs;
-using Shared_Layer;
+using Shared_Layer.Dtos;
 using Shared_Layer.Enums;
 using System;
 using System.Collections.Generic;
@@ -33,7 +32,7 @@ namespace Data_Layer.VacationRequestRepositoryFiles
 
         }
 
-        public List<VacationRequestsHistoryDto> GetAllApprovedRequestForEmployee(string employeeNumber)
+        public List<ApprovedVacationRequestsHistoryDto> GetAllApprovedRequestForEmployee(string employeeNumber)
         {
             try
             {
@@ -42,7 +41,7 @@ namespace Data_Layer.VacationRequestRepositoryFiles
                                        && req.RequestStateId == (int)enRequestState.Approved
                                        join VacType in dbContext.VacationTypes on req.VacationTypeCode equals VacType.VacationTypeCode
                                        join ApprovedBy in dbContext.Employees on req.EmployeeNumber equals ApprovedBy.EmployeeNumber
-                                       select new VacationRequestsHistoryDto
+                                       select new ApprovedVacationRequestsHistoryDto
                                        {
                                            VacationTypeName = VacType.VacationTypeName,
                                            VacationDescription = req.Description,
@@ -61,14 +60,14 @@ namespace Data_Layer.VacationRequestRepositoryFiles
             catch (Exception ex)
             {
                 Console.Error.WriteLine($"Error fetching approved vacation requests: {ex.Message}");
-                return new List<VacationRequestsHistoryDto>();
+                return new List<ApprovedVacationRequestsHistoryDto>();
             }
 
         }
 
         
 
-        public List<PendingVacationRequestsDto> GetAllPendingVacationRequestsForEmployee(string employeeNumber)
+        public List<PendingVacationRequestsDetailsDto> GetAllPendingVacationRequestsForEmployee(string employeeNumber)
         {
             try
             {
@@ -76,7 +75,7 @@ namespace Data_Layer.VacationRequestRepositoryFiles
                                        where req.EmployeeNumber == employeeNumber
                                        && req.RequestStateId == (int)enRequestState.Pending
                                        join Emp in dbContext.Employees on req.EmployeeNumber equals Emp.EmployeeNumber
-                                       select new PendingVacationRequestsDto
+                                       select new PendingVacationRequestsDetailsDto
                                        {
                                            Id = req.RequestId,
                                            VacationDescription = req.Description,
@@ -94,7 +93,7 @@ namespace Data_Layer.VacationRequestRepositoryFiles
             catch (Exception ex)
             {
                 Console.Error.WriteLine($"Error fetching pending vacation requests: {ex.Message}");
-                return new List<PendingVacationRequestsDto>();
+                return new List<PendingVacationRequestsDetailsDto>();
             }
 
         }

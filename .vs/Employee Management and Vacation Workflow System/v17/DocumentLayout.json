@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\dtos\\vacationsdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\dtos\\vacationsdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\dtos\\approvedvacationrequestshistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\dtos\\approvedvacationrequestshistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\dtos\\pendingvacationrequestsdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\dtos\\pendingvacationrequestsdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\dtos\\employeehavependingvacationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\dtos\\employeehavependingvacationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -155,16 +171,8 @@
       "RelativeMoniker": "D:0:0:{8FB41B73-7273-4E68-A87D-06457237284E}|Data_Layer\\Data_Layer.csproj|solutionrelative:data_layer\\migrations\\20250213224954_removeidentityfromstateid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\pendingvacationrequestsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\pendingvacationrequestsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\vacationsdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\vacationsdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|c:\\users\\user\\desktop\\back-end intern sky software\\first project\\employee management and vacation workflow system\\dtos\\dtos\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712ADEF7-8BFE-4E3B-88DB-9B4ABC9C156E}|DTOs\\Shared_Layer.csproj|solutionrelative:dtos\\dtos\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -174,15 +182,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApprovedVacationRequestsHistoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\ApprovedVacationRequestsHistoryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dtos\\ApprovedVacationRequestsHistoryDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\ApprovedVacationRequestsHistoryDto.cs",
+              "RelativeToolTip": "DTOs\\Dtos\\ApprovedVacationRequestsHistoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:52:18.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "EmployeeHavePendingVacationDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\EmployeeHavePendingVacationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dtos\\EmployeeHavePendingVacationDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\EmployeeHavePendingVacationDto.cs",
+              "RelativeToolTip": "DTOs\\Dtos\\EmployeeHavePendingVacationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:49:17.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Program.cs",
               "RelativeDocumentMoniker": "DTOs\\Program.cs",
@@ -195,31 +225,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Shared_Layer.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Shared_Layer.csproj",
-              "RelativeDocumentMoniker": "DTOs\\Shared_Layer.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Shared_Layer.csproj",
-              "RelativeToolTip": "DTOs\\Shared_Layer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-14T23:04:51.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "PendingVacationRequestsDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\PendingVacationRequestsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\PendingVacationRequestsDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\PendingVacationRequestsDto.cs",
-              "RelativeToolTip": "DTOs\\PendingVacationRequestsDto.cs",
+              "DocumentIndex": 2,
+              "Title": "PendingVacationRequestsDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\PendingVacationRequestsDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dtos\\PendingVacationRequestsDetailsDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\PendingVacationRequestsDetailsDto.cs",
+              "RelativeToolTip": "DTOs\\Dtos\\PendingVacationRequestsDetailsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:00:40.187Z"
+              "WhenOpened": "2025-02-12T20:00:40.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "DepartmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\DepartmentRepositoryFiles\\DepartmentRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\DepartmentRepositoryFiles\\DepartmentRepository.cs",
@@ -231,7 +250,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "VacationsDateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\VacationsDateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dtos\\VacationsDateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\VacationsDateDto.cs",
+              "RelativeToolTip": "DTOs\\Dtos\\VacationsDateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:05:16.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shared_Layer.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Shared_Layer.csproj",
+              "RelativeDocumentMoniker": "DTOs\\Shared_Layer.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Shared_Layer.csproj",
+              "RelativeToolTip": "DTOs\\Shared_Layer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-14T23:04:51.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PositionRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\PositionRepositoryFiles\\PositionRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\PositionRepositoryFiles\\PositionRepository.cs",
@@ -243,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "EFDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\DBContext\\EFDbContext.cs",
               "RelativeDocumentMoniker": "Data_Layer\\DBContext\\EFDbContext.cs",
@@ -255,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IPositionRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\PositionRepositoryFiles\\Interface\\IPositionRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\PositionRepositoryFiles\\Interface\\IPositionRepository.cs",
@@ -267,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Departments.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Entities\\Departments.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Entities\\Departments.cs",
@@ -279,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "IVacationRequestService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\VacationRequestServiceFiles\\Interface\\IVacationRequestService.cs",
               "RelativeDocumentMoniker": "business_Layer\\VacationRequestServiceFiles\\Interface\\IVacationRequestService.cs",
@@ -287,11 +331,12 @@
               "RelativeToolTip": "business_Layer\\VacationRequestServiceFiles\\Interface\\IVacationRequestService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T18:15:36.042Z"
+              "WhenOpened": "2025-02-12T18:15:36.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IVacationRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\VacationRequestRepositoryFiles\\Interface\\IVacationRequestRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\VacationRequestRepositoryFiles\\Interface\\IVacationRequestRepository.cs",
@@ -299,23 +344,25 @@
               "RelativeToolTip": "Data_Layer\\VacationRequestRepositoryFiles\\Interface\\IVacationRequestRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T18:15:10.498Z"
+              "WhenOpened": "2025-02-12T18:15:10.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "VacationRequestRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\VacationRequestRepositoryFiles\\VacationRequestRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\VacationRequestRepositoryFiles\\VacationRequestRepository.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\VacationRequestRepositoryFiles\\VacationRequestRepository.cs",
               "RelativeToolTip": "Data_Layer\\VacationRequestRepositoryFiles\\VacationRequestRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwB4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:56:49.209Z"
+              "WhenOpened": "2025-02-12T19:56:49.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "VacationRequestService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\VacationRequestServiceFiles\\VacationRequestService.cs",
               "RelativeDocumentMoniker": "business_Layer\\VacationRequestServiceFiles\\VacationRequestService.cs",
@@ -323,23 +370,25 @@
               "RelativeToolTip": "business_Layer\\VacationRequestServiceFiles\\VacationRequestService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:51:17.999Z"
+              "WhenOpened": "2025-02-12T17:51:17.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Screens.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Employee Management and Vacation Workflow System\\Screens.cs",
               "RelativeDocumentMoniker": "Employee Management and Vacation Workflow System\\Screens.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Employee Management and Vacation Workflow System\\Screens.cs",
               "RelativeToolTip": "Employee Management and Vacation Workflow System\\Screens.cs",
-              "ViewState": "AgIAAA8DAAAAAAAAAAAgwEQDAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKUCAAAAAAAAAAAgwKUCAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T18:35:33.541Z"
+              "WhenOpened": "2025-02-14T18:35:33.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\EmployeeServiceFiles\\EmployeeService.cs",
               "RelativeDocumentMoniker": "business_Layer\\EmployeeServiceFiles\\EmployeeService.cs",
@@ -347,11 +396,12 @@
               "RelativeToolTip": "business_Layer\\EmployeeServiceFiles\\EmployeeService.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAApwE4AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:53:20.186Z"
+              "WhenOpened": "2025-02-12T22:53:20.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "PositionService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\PositionServiceFiles\\PositionService.cs",
               "RelativeDocumentMoniker": "business_Layer\\PositionServiceFiles\\PositionService.cs",
@@ -363,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "VacationTypesService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\VacationTypesServiceFiles\\VacationTypesService.cs",
               "RelativeDocumentMoniker": "business_Layer\\VacationTypesServiceFiles\\VacationTypesService.cs",
@@ -375,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "IVacationTypesService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\VacationTypesServiceFiles\\Interface\\IVacationTypesService.cs",
               "RelativeDocumentMoniker": "business_Layer\\VacationTypesServiceFiles\\Interface\\IVacationTypesService.cs",
@@ -387,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "IPositionService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\PositionServiceFiles\\Interface\\IPositionService.cs",
               "RelativeDocumentMoniker": "business_Layer\\PositionServiceFiles\\Interface\\IPositionService.cs",
@@ -399,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "DepartmentService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\DepartmentServiceFiles\\DepartmentService.cs",
               "RelativeDocumentMoniker": "business_Layer\\DepartmentServiceFiles\\DepartmentService.cs",
@@ -411,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "RequestStatesService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\RequestStatesServiceFiles\\RequestStatesService.cs",
               "RelativeDocumentMoniker": "business_Layer\\RequestStatesServiceFiles\\RequestStatesService.cs",
@@ -423,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "IRequestStatesService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\RequestStatesServiceFiles\\Interface\\IRequestStatesService.cs",
               "RelativeDocumentMoniker": "business_Layer\\RequestStatesServiceFiles\\Interface\\IRequestStatesService.cs",
@@ -435,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "IDepartmentService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\DepartmentServiceFiles\\Interface\\IDepartmentService.cs",
               "RelativeDocumentMoniker": "business_Layer\\DepartmentServiceFiles\\Interface\\IDepartmentService.cs",
@@ -447,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "IEmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\business_Layer\\EmployeeServiceFiles\\Interface\\IEmployeeService.cs",
               "RelativeDocumentMoniker": "business_Layer\\EmployeeServiceFiles\\Interface\\IEmployeeService.cs",
@@ -455,11 +505,12 @@
               "RelativeToolTip": "business_Layer\\EmployeeServiceFiles\\Interface\\IEmployeeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:55:01.817Z"
+              "WhenOpened": "2025-02-12T22:55:01.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "IVacationTypesRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\VacationTypesRepositoryFiles\\Interface\\IVacationTypesRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\VacationTypesRepositoryFiles\\Interface\\IVacationTypesRepository.cs",
@@ -471,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "VacationTypesRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\VacationTypesRepositoryFiles\\VacationTypesRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\VacationTypesRepositoryFiles\\VacationTypesRepository.cs",
@@ -483,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Employee Management and Vacation Workflow System\\Program.cs",
               "RelativeDocumentMoniker": "Employee Management and Vacation Workflow System\\Program.cs",
@@ -495,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "RequestStatesRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\RequestStatesRepositoryFiles\\RequestStatesRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\RequestStatesRepositoryFiles\\RequestStatesRepository.cs",
@@ -507,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "IRequestStatesRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\RequestStatesRepositoryFiles\\interface\\IRequestStatesRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\RequestStatesRepositoryFiles\\interface\\IRequestStatesRepository.cs",
@@ -519,7 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "IDepartmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\DepartmentRepositoryFiles\\Interface\\IDepartmentRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\DepartmentRepositoryFiles\\Interface\\IDepartmentRepository.cs",
@@ -531,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "RequestStates.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Entities\\RequestStates.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Entities\\RequestStates.cs",
@@ -543,19 +594,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "EmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\EmployeeRepositoryFiles\\EmployeeRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\EmployeeRepositoryFiles\\EmployeeRepository.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\EmployeeRepositoryFiles\\EmployeeRepository.cs",
               "RelativeToolTip": "Data_Layer\\EmployeeRepositoryFiles\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:53:46.542Z"
+              "WhenOpened": "2025-02-12T22:53:46.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\EmployeeRepositoryFiles\\Interface\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "Data_Layer\\EmployeeRepositoryFiles\\Interface\\IEmployeeRepository.cs",
@@ -563,11 +615,12 @@
               "RelativeToolTip": "Data_Layer\\EmployeeRepositoryFiles\\Interface\\IEmployeeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T22:54:38.921Z"
+              "WhenOpened": "2025-02-12T22:54:38.921Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "20250213210539_RemoveIdentityFromStateId.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Migrations\\20250213210539_RemoveIdentityFromStateId.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Migrations\\20250213210539_RemoveIdentityFromStateId.cs",
@@ -578,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "20250213211153_RemoveIdentityFromStateId.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Migrations\\20250213211153_RemoveIdentityFromStateId.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Migrations\\20250213211153_RemoveIdentityFromStateId.cs",
@@ -589,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "20250213224954_RemoveIdentityFromStateId.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Migrations\\20250213224954_RemoveIdentityFromStateId.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Migrations\\20250213224954_RemoveIdentityFromStateId.cs",
@@ -601,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "20250213205740_RemoveIdentityFromStateId.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Migrations\\20250213205740_RemoveIdentityFromStateId.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Migrations\\20250213205740_RemoveIdentityFromStateId.cs",
@@ -612,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "VacationRequests.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Entities\\VacationRequests.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Entities\\VacationRequests.cs",
@@ -624,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "20250203195756_inital.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Data_Layer\\Migrations\\20250203195756_inital.cs",
               "RelativeDocumentMoniker": "Data_Layer\\Migrations\\20250203195756_inital.cs",
@@ -636,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Enums.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\Employee Management and Vacation Workflow System\\Enums.cs",
               "RelativeDocumentMoniker": "Employee Management and Vacation Workflow System\\Enums.cs",
@@ -648,27 +701,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "EmployeeDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\EmployeeDetailsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\EmployeeDetailsDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\EmployeeDetailsDto.cs",
-              "RelativeToolTip": "DTOs\\EmployeeDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\EmployeeDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Dtos\\EmployeeDetailsDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\Dtos\\EmployeeDetailsDto.cs",
+              "RelativeToolTip": "DTOs\\Dtos\\EmployeeDetailsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T23:09:46.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "VacationsDateDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\VacationsDateDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\VacationsDateDto.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Back-End intern Sky Software\\First Project\\Employee Management and Vacation Workflow System\\DTOs\\VacationsDateDto.cs",
-              "RelativeToolTip": "DTOs\\VacationsDateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T18:05:16.982Z"
+              "WhenOpened": "2025-02-12T23:09:46.166Z",
+              "EditorCaption": ""
             }
           ]
         }
