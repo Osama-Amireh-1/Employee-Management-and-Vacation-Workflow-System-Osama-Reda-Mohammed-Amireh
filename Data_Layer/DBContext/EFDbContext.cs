@@ -1,16 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Data_Layer.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Data_Layer.Entities
+namespace Data_Layer.DBContext
 {
-    public class EFDbContext:DbContext
+    public class EFDbContext : DbContext
     {
         public DbSet<Departments> Departments { get; set; }
-        public DbSet <Employees> Employees { get; set; }
+        public DbSet<Employees> Employees { get; set; }
         public DbSet<Positions> Positions { get; set; }
 
         public DbSet<RequestStates> RequestStates { get; set; }
@@ -23,11 +24,12 @@ namespace Data_Layer.Entities
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Departments>(e=>{
+            modelBuilder.Entity<Departments>(e =>
+            {
                 e.HasKey(k => k.DepartmentId);
                 e.Property(k => k.DepartmentId).ValueGeneratedOnAdd().UseIdentityColumn();
-                e.Property(k=>k.DepartmentName).HasMaxLength(50).IsRequired();
-                
+                e.Property(k => k.DepartmentName).HasMaxLength(50).IsRequired();
+
             });
             modelBuilder.Entity<Positions>(e =>
             {
@@ -42,8 +44,8 @@ namespace Data_Layer.Entities
                 e.Property(k => k.EmployeeName).HasMaxLength(20).IsRequired();
                 e.HasOne(k => k.Department).WithMany().HasForeignKey(k => k.DepartmentId).OnDelete(DeleteBehavior.Restrict);
                 e.HasOne(k => k.Position).WithMany().HasForeignKey(k => k.PositionId).OnDelete(DeleteBehavior.Restrict);
-                e.Property(k=>k.GenderCode).IsRequired().HasMaxLength(1);
-                e.HasOne(k => k.ReportedToEmployee).WithMany().HasForeignKey(k =>k.ReportedToEmployeeNumber).OnDelete(DeleteBehavior.Restrict);
+                e.Property(k => k.GenderCode).IsRequired().HasMaxLength(1);
+                e.HasOne(k => k.ReportedToEmployee).WithMany().HasForeignKey(k => k.ReportedToEmployeeNumber).OnDelete(DeleteBehavior.Restrict);
                 e.Property(k => k.ReportedToEmployeeNumber).HasMaxLength(6).IsRequired(false);
                 e.Property(k => k.VacationDaysLeft).HasDefaultValue(24);
                 e.ToTable("Employees", t => t.HasCheckConstraint("CK_VacationDaysLeft", "[VacationDaysLeft] <= 24"));
@@ -67,20 +69,20 @@ namespace Data_Layer.Entities
             modelBuilder.Entity<VacationRequests>(e =>
             {
                 e.HasKey(k => k.RequestId);
-                e.Property(k=>k.RequestId).ValueGeneratedOnAdd().UseIdentityColumn();
-                e.Property(k=>k.RequestubmissionDate).IsRequired();
-                e.Property(k=> k.RequestubmissionDate).HasDefaultValueSql("GETDATE()");
-                e.Property(k=>k.Description).IsRequired().HasMaxLength(100);
+                e.Property(k => k.RequestId).ValueGeneratedOnAdd().UseIdentityColumn();
+                e.Property(k => k.RequestubmissionDate).IsRequired();
+                e.Property(k => k.RequestubmissionDate).HasDefaultValueSql("GETDATE()");
+                e.Property(k => k.Description).IsRequired().HasMaxLength(100);
                 e.HasOne(k => k.Employee).WithMany(k => k.Vacations).HasForeignKey(k => k.EmployeeNumber).OnDelete(DeleteBehavior.Cascade);
-                e.HasOne(k => k.VacationType).WithMany().HasForeignKey(k=>k.VacationTypeCode).OnDelete(DeleteBehavior.Restrict);
+                e.HasOne(k => k.VacationType).WithMany().HasForeignKey(k => k.VacationTypeCode).OnDelete(DeleteBehavior.Restrict);
                 e.Property(k => k.VacationTypeCode).HasMaxLength(1);
-                e.Property(k=>k.StartDate).IsRequired();
-                e.Property(k=>k.EndDate).IsRequired();
-                e.Property(k=>k.TotalVacationDays).IsRequired();
+                e.Property(k => k.StartDate).IsRequired();
+                e.Property(k => k.EndDate).IsRequired();
+                e.Property(k => k.TotalVacationDays).IsRequired();
                 e.HasOne(k => k.RequestStates).WithMany().HasForeignKey(k => k.RequestStateId).OnDelete(DeleteBehavior.Restrict);
-                e.HasOne(k=>k.ApprovedByEmployee).WithMany().HasForeignKey(k=>k.ApprovedByEmployeeNumber).OnDelete(DeleteBehavior.Restrict);
-                e.Property(k=>k.ApprovedByEmployeeNumber).IsRequired(false);
-                e.HasOne(k=>k.DeclinedByEmployee).WithMany().HasForeignKey(k=>k.DeclinedByEmployeeNumber).OnDelete(DeleteBehavior.Restrict);
+                e.HasOne(k => k.ApprovedByEmployee).WithMany().HasForeignKey(k => k.ApprovedByEmployeeNumber).OnDelete(DeleteBehavior.Restrict);
+                e.Property(k => k.ApprovedByEmployeeNumber).IsRequired(false);
+                e.HasOne(k => k.DeclinedByEmployee).WithMany().HasForeignKey(k => k.DeclinedByEmployeeNumber).OnDelete(DeleteBehavior.Restrict);
                 e.Property(k => k.DeclinedByEmployeeNumber).IsRequired(false);
 
             });

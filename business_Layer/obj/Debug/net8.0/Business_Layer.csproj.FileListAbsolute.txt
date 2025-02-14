@@ -144,3 +144,4 @@ C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Manage
 C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\business_Layer\bin\Debug\net8.0\Shared_Layer.exe
 C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\business_Layer\bin\Debug\net8.0\Shared_Layer.dll
 C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\business_Layer\bin\Debug\net8.0\Shared_Layer.pdb
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\business_Layer\obj\Debug\net8.0\Business_Layer.sourcelink.json

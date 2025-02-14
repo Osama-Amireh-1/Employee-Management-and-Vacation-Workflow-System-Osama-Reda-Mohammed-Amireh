@@ -1,7 +1,8 @@
-﻿using Data_Layer.EmployeeRepositoryFiles.Interface;
+﻿using Data_Layer.DBContext;
+using Data_Layer.EmployeeRepositoryFiles.Interface;
 using Data_Layer.Entities;
 using DTOs;
-using Shared_Layer;
+using Shared_Layer.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;

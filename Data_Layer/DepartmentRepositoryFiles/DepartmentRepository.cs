@@ -1,4 +1,5 @@
-﻿using Data_Layer.DepartmentRepositoryFile.Interface;
+﻿using Data_Layer.DBContext;
+using Data_Layer.DepartmentRepositoryFile.Interface;
 using Data_Layer.Entities;
 using System;
 using System.Collections.Generic;

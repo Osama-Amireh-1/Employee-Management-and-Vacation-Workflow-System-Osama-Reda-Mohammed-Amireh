@@ -1,4 +1,4 @@
-﻿using Shared_Layer;
+﻿using Shared_Layer.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
