@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\bin\Debug\net8.0\Shared_Layer.exe
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\bin\Debug\net8.0\Shared_Layer.deps.json
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\bin\Debug\net8.0\Shared_Layer.runtimeconfig.json
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\bin\Debug\net8.0\Shared_Layer.dll
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\bin\Debug\net8.0\Shared_Layer.pdb
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\Shared_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\Shared_Layer.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\Shared_Layer.AssemblyInfo.cs
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\Shared_Layer.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\Shared_Layer.dll
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\refint\Shared_Layer.dll
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\Shared_Layer.pdb
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\Shared_Layer.genruntimeconfig.cache
+C:\Users\User\Desktop\Back-End intern Sky Software\First Project\Employee Management and Vacation Workflow System\DTOs\obj\Debug\net8.0\ref\Shared_Layer.dll
